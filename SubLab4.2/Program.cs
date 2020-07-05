@@ -31,7 +31,7 @@ namespace SubLab4._2
                 string[] newRow = Console.ReadLine().Split();
                 for (int j = 0; j < matrix.GetLength(0); j++)
                 {
-                    if (!int.TryParse(newRow[i], out matrix[i, j]))
+                    if (!int.TryParse(newRow[j], out matrix[i, j]))
                     {
                         Console.WriteLine("Entered numbers are invalid");
                         break;
@@ -57,7 +57,8 @@ namespace SubLab4._2
                 }
                 if (flag)
                 {
-                    Console.Write(i); 
+                    if (noSuchRows) Console.Write(" " + i);
+                    else Console.Write(", " + i);
                     noSuchRows = false;
                 }
             }
