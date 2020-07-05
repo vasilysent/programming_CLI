@@ -1,0 +1,5 @@
+C:\Users\vasil\Documents\programming_CLI\SubLab2.2\bin\Debug\SubLab2.2.exe.config
+C:\Users\vasil\Documents\programming_CLI\SubLab2.2\bin\Debug\SubLab2.2.exe
+C:\Users\vasil\Documents\programming_CLI\SubLab2.2\bin\Debug\SubLab2.2.pdb
+C:\Users\vasil\Documents\programming_CLI\SubLab2.2\obj\Debug\SubLab2.2.exe
+C:\Users\vasil\Documents\programming_CLI\SubLab2.2\obj\Debug\SubLab2.2.pdb

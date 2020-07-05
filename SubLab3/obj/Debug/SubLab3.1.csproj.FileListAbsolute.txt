@@ -1,0 +1,6 @@
+C:\Users\vasil\Documents\programming_CLI\SubLab3\bin\Debug\SubLab3.exe.config
+C:\Users\vasil\Documents\programming_CLI\SubLab3\bin\Debug\SubLab3.exe
+C:\Users\vasil\Documents\programming_CLI\SubLab3\bin\Debug\SubLab3.pdb
+C:\Users\vasil\Documents\programming_CLI\SubLab3\obj\Debug\SubLab3.1.csprojAssemblyReference.cache
+C:\Users\vasil\Documents\programming_CLI\SubLab3\obj\Debug\SubLab3.exe
+C:\Users\vasil\Documents\programming_CLI\SubLab3\obj\Debug\SubLab3.pdb

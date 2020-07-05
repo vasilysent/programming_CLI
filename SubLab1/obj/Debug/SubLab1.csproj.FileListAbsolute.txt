@@ -1,0 +1,12 @@
+C:\Users\vasil\Documents\programming_CLI\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\vasil\Documents\programming_CLI\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\vasil\Documents\programming_CLI\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\vasil\Documents\programming_CLI\ConsoleApp1\obj\Debug\SubLab1.csprojAssemblyReference.cache
+C:\Users\vasil\Documents\programming_CLI\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\vasil\Documents\programming_CLI\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\vasil\Documents\programming_CLI\SubLab1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\vasil\Documents\programming_CLI\SubLab1\bin\Debug\ConsoleApp1.exe
+C:\Users\vasil\Documents\programming_CLI\SubLab1\bin\Debug\ConsoleApp1.pdb
+C:\Users\vasil\Documents\programming_CLI\SubLab1\obj\Debug\SubLab1.csprojAssemblyReference.cache
+C:\Users\vasil\Documents\programming_CLI\SubLab1\obj\Debug\ConsoleApp1.exe
+C:\Users\vasil\Documents\programming_CLI\SubLab1\obj\Debug\ConsoleApp1.pdb
