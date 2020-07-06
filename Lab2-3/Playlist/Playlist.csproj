@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="XMLLINQ.cs" />
+    <Compile Include="XMLSpecifier.cs" />
+    <Compile Include="Class2.cs" />
     <Compile Include="Song.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>

@@ -4,13 +4,17 @@ using System.Linq;
 
 namespace Playlist
 {
-    class Playlist
+    [Serializable]
+    public class Playlist
     {
         private String playlistName;
-        private List<Song> playlist = new List<Song>();
+        public List<Song> playlist { get; private set; }
+        
+
         public Playlist(String name)
         {
             this.playlistName = name;
+            this.playlist = new List<Song>();
         }
         public void AddSong(String title, String author, int duration)
         {

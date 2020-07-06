@@ -2,9 +2,9 @@
 
 namespace Playlist
 {
-    class Song
+    [Serializable]
+    public class Song
     {
-        private int number;
         private String title;
         private String author;
         private int duration;

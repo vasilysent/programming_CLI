@@ -12,7 +12,7 @@ namespace Playlist
             Boolean isWorking = true;
             while (isWorking)
             {
-                Console.WriteLine("menu:\n(Enter number to select)\n  1. Search\n  2. Show all\n  3. Add item\n  4. Delete item\n  5. Exit");
+                Console.WriteLine("menu:\n(Enter number to select)\n  1. Search\n  2. Show all\n  3. Add item\n  4. Delete item\n  5. Save playlist\n  6. Load playlist from file\n  7. Exit");
                 input = Console.ReadLine();
                 switch (input)
                 {
@@ -81,14 +81,46 @@ namespace Playlist
                         else Console.WriteLine("Enter correct number");
                         break;
                     case "5":
+                        SavePlaylist(playlist);
+                        break;
+                    case "6":
+                        playlist = LoadPlaylist();
+                        Console.WriteLine("Playlist has been loaded");
+                        break;
+                    case "7":
                         Console.WriteLine("Goodby!");
                         Console.ReadLine();
                         isWorking = false;
                         break;
                     default:
                         break;
-
                 }
+            }
+        }
+        private static void SavePlaylist(Playlist MyPlaylist)
+        {
+            Console.WriteLine("Enter path and filename to save:");
+            try
+            {
+                XMLSpecifier.Save(Console.ReadLine(), MyPlaylist);
+                Console.WriteLine("Playlist has been saved");
+            }
+            catch (Exception exc)
+            {
+                Console.WriteLine(exc.Message);
+            }
+        }
+        private static Playlist LoadPlaylist()
+        {
+            Console.WriteLine("Enter path and filename to load:");
+            try
+            {
+                return XMLSpecifier.loadXML(Console.ReadLine());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return new Playlist("newPlaylist");
             }
         }
     }
