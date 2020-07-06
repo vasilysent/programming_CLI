@@ -5,7 +5,6 @@ namespace Playlist
 {
     class XMLLINQ
     {
-
         public static Playlist loadFromXML(string path)
         {
             Playlist list = new Playlist("newPlaylist");
@@ -15,7 +14,6 @@ namespace Playlist
 
             return list;
         }
-
         public static void saveToXML(string path, Playlist list)
         {
             XDocument doc = new XDocument(
